@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: url(../images/pattern-background-desktop.svg) center/cover no-repeat;
+background-color: #e0e8ff ;
+font-family: "Red Hat Display", sans-serif;
+font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border-radius: 20px;
+    
+}
+.top-image{
+  margin: 0;   
+  border-radius: 10px;
+  
+    
+}
+.card{
+    background-color: #ffff;
+    max-width: 450px;
+    align-items: center;    
+    height: auto;
+    border-radius: 20px;
+    
+    
+    
+    
+}
+.head-text{
+    text-align:center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.para{
+    text-align: center;
+    color: #A4A6C3;
+    font-weight: 550;
+    padding: 35px;
+    font-size: 16px;
+}
+.plans{
+    background-color: #F5F7FF;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+}
+.bill-plan{
+     margin-top: 7px;
+    font-size: 16px;
+    color: #1f2f56;     
+    text-align: left;
+}
+.bill-amount{
+    display: flex;
+    align-items: flex-end;
+    color: #7280a7;
+}
+.bill-img{
+     
+     
+    margin-right: 20px;
+}
+
+.change-plan{
+    margin-top: 15px;     
+    margin-left: auto;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3829e0;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.pay-btn{
+    display: block;
+    border-radius: 20px;
+    background-color: #3829E0;
+    padding: 20px 0;
+    color: #fff;
+    margin-top: 36px;
+    margin-right: 56px;
+    margin-bottom: 0;
+    margin-left: 56px;
+    box-shadow: 0 16px 20px #C7CFF3;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.pay-btn:hover{
+    opacity: 0.7;
+}
+.pay-text{
+    font-weight: 700;
+    background-color: #3829e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel-order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #636E89;
+    font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
